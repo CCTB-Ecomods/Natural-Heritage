@@ -1,0 +1,131 @@
+# ============ #
+# OS generated #
+# ============ #
+
+*.DS_Store
+*.DS_Store?
+*._*
+*.Spotlight-V100
+*.Trashes
+*.ehthumbs.db
+*Thumbs.db
+~$*.ppt*
+*.swp
+
+
+# PowerPoint
+**/~$*.pptx*
+
+# Vim
+*.swp
+
+# ====================================== #
+# Project Specific: Edit/Add/Remove for  #
+# your own purpose (not complete)        #
+# ====================================== #
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+
+# =============== #
+# Unity generated #
+# =============== #
+#[Tt]emp/
+#[Oo]bj/
+#[Bb]uild
+#/[Bb]uilds/
+#/[Ll]ibrary/
+#sysinfo.txt
+#*.stackdump
+#/Assets/AssetStoreTools*
+#*.apk
+#*.unitypackage
+
+
+# =============== #
+# Blender	  #
+# =============== #
+*.pyc
+*.blend[1-9]
+__pycache__
+/dist/
+
+# =============== #
+# Unity project (nested in code/Habitat Use/)
+# =============== #
+code/Habitat Use/Library/
+code/Habitat Use/Temp/
+code/Habitat Use/Obj/
+code/Habitat Use/Build/
+code/Habitat Use/Builds/
+code/Habitat Use/Logs/
+code/Habitat Use/UserSettings/
+code/Habitat Use/.vs/
+
+# Ignore local-only project settings
+code/Habitat Use/*.csproj
+code/Habitat Use/*.unityproj
+code/Habitat Use/*.sln
+code/Habitat Use/*.suo
+code/Habitat Use/*.user
+code/Habitat Use/*.userprefs
+
+# Ignore Asset Store package (license restricted)
+*PolygonalParticles/
+
+# Ignore large binary files
+*.png
+*.ttf
+*.tif
+*.mp4
+*.pdf
+*.pptx
+*.jpg
+*.pdf
+*.eps
+*.jpeg
+*.png
+*.gif
+*.psd
+*.ai
+*.xcf
+*.mp3
+*.wav
+*.ogg
+*.mp4
+*.mov
+*.FBX
+*.fbx
+*.blend
+*.obj
+*.3ds
+*.a
+*.exr
+*.tga
+*.pdf
+*.zip
+*.dll
+*.aif
+*.ttf
+*.rns
+*.reason
+*.lxo
+*.lxo
+*.rar
+*SampleScene.unity
+*.prefab

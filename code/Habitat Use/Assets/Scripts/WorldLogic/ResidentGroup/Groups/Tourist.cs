@@ -1,0 +1,18 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Tourist : ResidentGroup
+{
+    private LandUseValue _idealLandUse;
+
+    public Tourist(string name, LandUseValue idealLandUse) : base(name)
+    {
+        _idealLandUse = idealLandUse;
+    }
+
+    protected override LandUseValue GetIdealLandscapeValues()
+    {
+        return _idealLandUse;
+    }
+}
